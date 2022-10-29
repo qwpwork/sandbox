@@ -1,0 +1,17 @@
+// Import all of Bootstrap's CSS
+@import "~bootstrap/scss/bootstrap";
+
+body {
+    padding-bottom: 60px;
+}
+
+.project {
+    &__bio {
+        min-height: 100px;
+        position: relative;
+        top: 25px;
+    }
+    &__logo {
+        max-width: 186px;
+    }
+}

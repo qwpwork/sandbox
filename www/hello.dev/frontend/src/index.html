@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sandbox</title>
+  </head>
+  <body class="bg-dark text-light">
+    <main>
+      <section class="hello container mt-5 mb-5 border-3 border-warning">
+        <h1 class="display-4 fw-bold mb-3">
+          Сайт Frontend-разработчика
+        </h1>
+        <p>
+          Привет! Меня зовут Александр, я живу в Томске и разрабатываю веб-приложения с 2018 года<br>
+          Ранее это было просто хобби, но теперь я нацелен стать full-stack разработчиком
+          (С упором на frontend)
+        </p>
+      </section>
+      <section class="instruments container-fluid border-3 border-top border-warning mt-5 mb-5">
+          <div class="container mt-4 mb-3">
+            <p class="display-6 fw-bold mb-4">Вещи, которые я использую при разработке</p>
+            <ul class="list-group list-group-horizontal mb-3 overflow-scroll">
+              <li class="list-group-item list-group-item-dark">Окружение: </li>
+              <li class="list-group-item list-group-item-secondary">Linux (deb)</li>
+              <li class="list-group-item list-group-item-secondary">VS Code</li>
+            </ul>
+            <ul class="list-group list-group-horizontal mb-3 overflow-scroll">
+              <li class="list-group-item list-group-item-dark">Frontend: </li>
+              <li class="list-group-item list-group-item-secondary">HTML</li>
+              <li class="list-group-item list-group-item-secondary">SASS (SCSS)</li>
+              <li class="list-group-item list-group-item-secondary">Native JS</li>
+              <li class="list-group-item list-group-item-secondary">Vue.js</li>
+              <li class="list-group-item list-group-item-secondary">Vite</li>
+            </ul>
+            <ul class="list-group list-group-horizontal overflow-scroll">
+              <li class="list-group-item list-group-item-dark">Backend: </li>
+              <li class="list-group-item list-group-item-secondary">Docker</li>
+              <li class="list-group-item list-group-item-secondary">PHP</li>
+              <li class="list-group-item list-group-item-secondary">MySQL</li>
+            </ul>
+          </div>
+      </section>
+      <section class="projects container mt-3 mb-5">
+        <p class="display-6 fw-bold">Мои проекты</p>
+        <ul class="projects__dev list-unstyled">
+          <p class="lead mt-3">Принимал участие в разработке</p>
+          <li class="project border-1 border-bottom border-light">
+            <div class="col-2 project__logo list-inline-item">
+              <a class="text-decoration-none" href="https://cheese.tomsk.ru/" target="_blank">
+                <img class="project__logo mb-3" src="./img/cheese.svg" alt="cheese collection logo">
+              </a>
+            </div>  
+            <div class="col-9 project__bio list-inline-item">
+              <p class="">
+                <a class="lead fw-bold link-light" href="https://cheese.tomsk.ru/" target="_blank">
+                  Сырная коллекция
+                </a>
+                <br>
+                <span class="">
+                  Сайт сырной коллекции.<br>Основная сложность проекта состояла в том,
+                  что это был мой первый коммерческий проект.<br>
+                  Из-за тяжелого веса сайта (загрузка видео на главной странице),
+                  необходимо было сделать загрузку сайта.
+                </span>
+              </p>
+            </div>
+          </li>
+          <li class="project mt-4">
+            <div class="col-2 project__logo list-inline-item">
+              <a class="text-decoration-none" href="https://meripoppins.tomsk.ru/" target="_blank">
+                <img class="project__logo mb-3" src="./img/meri-poppins.png" alt="cheese collection logo">
+              </a>
+            </div> 
+            
+            <div class="project__bio list-inline-item">
+              <p class="text-wrap">
+                <a class="lead fw-bold link-light" href="https://meripoppins.tomsk.ru/" target="_blank">
+                  Кондитерская «Мери Поппинс»
+                </a>
+                <br>
+                <span>
+                  В этом проекте мной разрабатывалась responsive-верстка<br>
+                  Данный сайт будет выглядеть хорошо как на 4к разрешении, так и на экране iPhone 5.<br>
+                  Основной сложностью было: изменение html-шаблона в зависимости от разрешения экрана.
+                </span>
+              </p>
+            </div>
+          </li>
+        </ul>
+        <ul class="projects__support list-unstyled">
+          <p class="lead mt-5">Занимался поддержкой проекта</p>
+        </ul>
+      </section>
+      <footer class="footer fixed-bottom bg-dark border-3 border-top border-warning">
+        <section class="mt-3 container social-links">
+          <p>footer</p>
+        </section>
+      </footer>
+    </main>
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
